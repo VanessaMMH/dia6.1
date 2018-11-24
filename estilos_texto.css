@@ -1,0 +1,81 @@
+@font-face{
+	font-family: 'harry';
+	src:url("./fonts/ParryHotter.ttf");
+}
+#titulo{
+	font-family: Verdana , sans-serif;/*tipo de fuente*/
+	font-size: 26px;
+	font-weight: 600;
+	color: #cccccc;
+}
+#subtitulo{
+	font:bold 20px Verdana;
+	color:rgb(255,0,255);
+}
+h1{
+	font-family: 'harry';
+	color: rgba(0,0,255,0.8);
+}/*1.0 no tiene transparencia | 0.8 opacity*/
+#descripcion{
+	text-align: center;
+	word-spacing: 10px;
+	text-decoration: underline;
+	width: 200px;
+	height: 200px;
+/*	overflow: scroll; para el revalse*/
+	overflow: hidden;
+	
+/*relleno interno padding | relleno externo margin*/
+	/*padding: arriba, derecha,abajo,izquierda;
+	padding: arriba y abajo , derecha e izquierda;
+	margin tiene el mismo comportamiento*/
+/*	border:1px solid red;
+*/	border-style: solid; /*dashed, dotted, groove;*/
+	border-color: red;
+	border-top-width: 2px;
+	border-right-width: 3px;
+	border-bottom-width: 4px;
+	border-left-width: 5px;
+
+	border-radius: 20px 10px 30px 50px;
+	 
+
+
+	padding-top: 10px;
+	padding-bottom:90px;
+	padding-left:40px;
+	padding-right:20px;
+	/*CTRL+F5:recargar limpiando la cache*/
+	margin: 12px;
+	margin-bottom: 100px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+header{
+	background-color: #eeeeee;
+	border: 1px solid;
+	box-shadow: rgb(150,150,150) 10px 5px 10px 10px;
+}
+/*./aqui en este directorio*/
+/*body{
+
+	background-image: url("./img/textura.PNG");
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	background-repeat: no-repeat;
+}*/
+body{
+	background: #cccccc url("./img/textura.PNG") repeat-y;
+}
+.b{
+	border:solid 6px #000000;
+	border-top-left-radius:42px;
+	border-top-right-radius:41px;
+	border-bottom-left-radius:40px;
+	border-bottom-right-radius:39px;
+	/*padding: 150px;
+	margin: 100px ;*/
+	font-size: 30px;
+}
